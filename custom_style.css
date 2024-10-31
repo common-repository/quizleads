@@ -1,0 +1,178 @@
+@import url(http://fonts.googleapis.com/css?family=Poly);
+
+.metaBox label {
+	display: block;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #4278a6;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.metaBox input[type=text] {
+	padding: 5px;
+	font-size: 16px;
+	width: 650px;
+}
+.metaBox select {
+	padding: 5px;
+	font-size: 16px;
+	width: 650px;
+}
+.metaBox textarea {
+	padding: 5px;
+	font-size: 16px;
+	width: 650px;
+	height: 165px;
+}
+
+
+#siteOptions {
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Poly', serif;
+	text-shadow: 0px 0px 1px transparent; 
+	font-size: 21px;
+}
+
+#fb_nav {
+	width: 20%;
+	float: left;
+	padding: 10px;
+	margin-bottom: -1500px;
+	padding-bottom: 1500px;
+	padding-top: 0;
+}
+	#fb_nav ul {
+		margin-top: 0;
+	}
+	#fb_nav ul li a {
+		padding: 10px 0;
+		padding-left: 45px;
+		display: block;
+		margin-bottom: -6px;
+		width:86%;
+		font-size: 15px;
+		color: #2f363e;
+		margin-left: -10px;
+		text-decoration: none;
+	}
+#fb_tabs {
+	width: 60%;
+	float: left;
+	padding: 14px 24px;
+}
+input[type=text] {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	padding: 6px;
+	margin: 5px 0;
+	color: #666;
+}
+textarea {
+	display: block;
+	width: 100%;
+	height: 150px;
+	font-size: 14px;
+	padding: 6px;
+	margin: 5px 0;
+	color: #666;
+}
+select {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	padding: 6px;
+	margin: 5px 0;
+	color: #666;
+}
+#siteOptions strong {
+	padding: 0 0;
+	margin-bottom: -10px;
+	display: block;
+	font-size: 16px;
+}
+#siteOptions p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+#siteOptions .template {
+	background: url(images/template.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .template.active, #siteOptions .template:hover {
+		background: url(images/template.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+
+
+#siteOptions .dashboard {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/24x24/categories/package_settings.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .dashboard.active, #siteOptions .dashboard:hover {
+		background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/24x24/categories/package_settings.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .design {
+	background: url(http://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/stock_filters-pop-art.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .design.active, #siteOptions .design:hover {
+		background: url(http://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/stock_filters-pop-art.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .slideshow {
+	background: url(http://cdn4.iconfinder.com/data/icons/Lontar_eve/24/hat.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .slideshow.active, #siteOptions .slideshow:hover {
+		background: url(http://cdn4.iconfinder.com/data/icons/Lontar_eve/24/hat.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .map {
+	background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/24x24/apps/user-info.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .map.active, #siteOptions .map:hover {
+		background: url(http://cdn2.iconfinder.com/data/icons/gnomeicontheme/24x24/apps/user-info.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .menu {
+	background: url(http://cdn2.iconfinder.com/data/icons/c9d/email.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .menu.active, #siteOptions .menu:hover {
+		background: url(http://cdn2.iconfinder.com/data/icons/c9d/email.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .language {
+	background: url(http://cdn3.iconfinder.com/data/icons/flatforlinux/24/27-Edit%20Text.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .language.active, #siteOptions .language:hover {
+		background: url(http://cdn3.iconfinder.com/data/icons/flatforlinux/24/27-Edit%20Text.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .extra {
+	background: url(http://cdn5.iconfinder.com/data/icons/pursuit/24/email.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .extra.active, #siteOptions .extra:hover {
+		background: url(http://cdn5.iconfinder.com/data/icons/pursuit/24/email.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions .photos {
+	background: url(http://cdn2.iconfinder.com/data/icons/icojoy/shadow/standart/png/24x24/001_15.png) no-repeat left;
+	background-position: 9px 7px;
+}
+	#siteOptions .photos.active, #siteOptions .photos:hover {
+		background: url(http://cdn2.iconfinder.com/data/icons/icojoy/shadow/standart/png/24x24/001_15.png) no-repeat left #fff;
+		background-position: 9px 7px;
+	}
+#siteOptions hr {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
